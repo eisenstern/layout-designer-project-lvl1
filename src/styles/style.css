@@ -114,13 +114,14 @@ h3 {
 .flex-container {
     display: flex;
     align-items: flex-end;
-    padding-top: 500px;
+    padding-top: 443px;
 }
 
 .left-text {
     max-width: 540px;
     height: 141px;
     margin-right: 30px;
+    margin-top: 50px;
 }
 
 .right-text {
