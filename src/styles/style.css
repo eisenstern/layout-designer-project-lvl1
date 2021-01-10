@@ -54,16 +54,23 @@ body {
     font-family: 'Neucha', sans-serif;
     font-weight: normal;
     line-height: 1.2em;
-    text-align: left;
+    text-align: left;   
+}
+
+.z-2 {
     z-index: 2;
 }
 
-.heading-orange {
+.orange {
     color: var(--main);
 }
 
-.heading-black {
+.black {
     color: var(--dark);
+}
+
+.white {
+    color: var(--white);
 }
 
 h1 {
@@ -112,7 +119,10 @@ h3 {
 
 .flex-container {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-end;    
+}
+
+.pt-443 {
     padding-top: 443px;
 }
 
@@ -153,6 +163,10 @@ section.no-background::before {
     background: var(--white);
 }
 
+.light-background {
+    background: var(--light);
+}
+
 .text-center {
     position: relative;
     text-align: center;
@@ -165,3 +179,46 @@ section.no-background::before {
 .mb-30 {
     margin-bottom: 30px;
 }
+
+#navigation {
+    padding-top: 100px;
+    background: var(--main-dark);
+}
+
+#navigation>.flex-container>div {
+    width: 302px;
+    padding: 24px;
+    margin: 15px 15px;
+}
+
+/* #navigation>.flex-container>div>div {
+    padding: 24px;
+} */
+
+#navigation .flex-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: -15px -15px;
+}
+
+.fsize-52 {
+    font-size: 52px;
+}
+
+.number {
+    margin-bottom: 40px;
+    text-align: left;
+    font-size: 64px;
+    font-family: 'Neucha', sans-serif;
+    line-height: 1;
+}
+
+.relative {
+    position: relative;
+}
+
+.mtop-1em {
+    margin-top: 1em;
+}
+
