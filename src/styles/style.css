@@ -78,6 +78,10 @@ body {
     color: var(--half-dark);
 }
 
+.brown {
+    color: var(--brown);
+}
+
 h1 {
     font-size: 72px;
 }
@@ -99,6 +103,8 @@ h3 {
     padding-left: 165px;
     padding-right: 165px;
 }
+
+
 
 .overflow-hidden {
     overflow: hidden;
@@ -187,6 +193,10 @@ section.no-background::before {
 .text-center {
     position: relative;
     text-align: center;
+}
+
+.white-background {
+    background: var(--white);
 }
 
 .video {
@@ -303,4 +313,56 @@ section.no-background::before {
 .columns {
     column-count: 2;
     column-gap: 30px;
+}
+
+#premature-optimization {
+    top: -200px;
+}
+
+#premature-optimization .flex-container {
+    align-items: flex-start;
+    margin: 0 -15px;
+}
+
+#premature-optimization .flex-container div {
+    margin: 0 15px;
+}
+
+#distortion-of-novelty {
+    top: -200px;
+}
+
+#distortion-of-novelty .flex-container {
+    align-items: flex-start;
+    margin: 0 -15px;
+}
+
+#distortion-of-novelty .flex-container div {
+    margin: 0 15px;
+}
+
+#hyperbolic-depreciation {
+    top: -200px;
+}
+
+#hyperbolic-depreciation .flex-container {
+    align-items: flex-start;
+    margin: 0 -15px;
+}
+
+#hyperbolic-depreciation .flex-container div {
+    margin: 0 15px;
+}
+
+#errors-in-planning {
+    top: -200px;
+}
+
+#errors-in-planning .flex-container {
+    align-items: flex-start;
+    margin: 0 -15px;
+}
+
+#errors-in-planning .flex-container div {
+    margin: 0 15px;
 }
