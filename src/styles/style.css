@@ -5,6 +5,7 @@
     --half-white: #d7ccc0;
     --light: #f5f4f0;
     --main: #fe8a02;
+    --button-hover: #ea7600;
     --main-dark: #42413c;
     --dark: #2a2626;
     --half-dark: #908d8b;
@@ -73,6 +74,10 @@ body {
     color: var(--white);
 }
 
+.half-dark {
+    color: var(--half-dark);
+}
+
 h1 {
     font-size: 72px;
 }
@@ -117,6 +122,11 @@ h3 {
     overflow: hidden;
 }
 
+.img-1 {
+    filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+    vertical-align: middle;
+}
+
 .flex-container {
     display: flex;
     align-items: flex-end;    
@@ -143,10 +153,14 @@ h3 {
     left: 735px;
     top: 800px;
     padding: 12px 24px 12px 24px;
-    background-color: #fe8a02;
+    background-color: var(--main);
     font-weight: bold;
     font-size: 16px;
     border: none;
+}
+
+.button:hover {
+    background-color: var(--button-hover);
 }
 
 .button a {
@@ -173,6 +187,7 @@ section.no-background::before {
 }
 
 .video {
+    position: relative;
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -180,20 +195,27 @@ section.no-background::before {
     margin-bottom: 30px;
 }
 
+.mb-0 {
+    margin: 0;
+}
+
 #navigation {
-    padding-top: 100px;
     background: var(--main-dark);
+    top: -200px;
+    padding-top: 200px;
 }
 
 #navigation>.flex-container>div {
     width: 302px;
     padding: 24px;
     margin: 15px 15px;
+    
 }
 
-/* #navigation>.flex-container>div>div {
-    padding: 24px;
-} */
+#navigation>.flex-container>div a {
+    text-decoration: none;
+    color: var(--dark);
+}
 
 #navigation .flex-container {
     flex-wrap: wrap;
@@ -202,8 +224,23 @@ section.no-background::before {
     margin: -15px -15px;
 }
 
+#navigation .flex-container .light-background:hover {
+    background-color: var(--main);
+}
+
+#navigation .flex-container .light-background:hover div {
+    color: var(--white);
+}
+
+#navigation .flex-container .light-background:hover .orange {
+    color: var(--white);
+}
 .fsize-52 {
     font-size: 52px;
+}
+
+.fsize-34 {
+    font-size: 34px;
 }
 
 .number {
@@ -222,3 +259,45 @@ section.no-background::before {
     margin-top: 1em;
 }
 
+.biases {
+    font-size: 24px;
+    font-family: 'Neucha', sans-serif;
+    line-height: 1.2;
+}
+
+#ikea-effect {
+    top: -200px;
+}
+
+#ikea-effect .flex-container {
+    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 0 -15px;
+}
+
+#ikea-effect .flex-container div {
+    margin: 0 15px;
+}
+
+.width-502 {
+    width: 502px;
+}
+
+.brown-background {
+    background-color: var(--brown);
+}
+
+.how-appears {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.columns {
+    column-count: 2;
+    column-gap: 30px;
+}
