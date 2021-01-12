@@ -162,14 +162,17 @@ h3 {
 }
 
 .button {
-    position: absolute;
-    left: 735px;
-    top: 800px;
+    /* position: relative; */
+    /* left: 735px; */
+    /* top: 800px; */
+    /* margin-bottom: 100px; */
     padding: 12px 24px 12px 24px;
     background-color: var(--main);
     font-weight: bold;
     font-size: 16px;
     border: none;
+    margin-left: 15%;
+    margin-top: 40px;
 }
 
 .button:hover {
