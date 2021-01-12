@@ -108,8 +108,6 @@ h3 {
     padding-right: 165px;
 }
 
-
-
 .overflow-hidden {
     overflow: hidden;
 }
@@ -224,8 +222,8 @@ section.no-background::before {
 
 #navigation {
     background: var(--main-dark);
-    top: -200px;
-    padding-top: 200px;
+    top: -184px;
+    padding-top: 184px;
 }
 
 #navigation>.flex-container>div {
@@ -301,7 +299,7 @@ section.no-background::before {
 }
 
 #ikea-effect {
-    top: -200px;
+    top: -184px;
 }
 
 #ikea-effect .flex-container {
@@ -342,7 +340,7 @@ section.no-background::before {
 }
 
 #premature-optimization {
-    top: -200px;
+    top: -184px;
 }
 
 #premature-optimization .flex-container {
@@ -355,7 +353,7 @@ section.no-background::before {
 }
 
 #distortion-of-novelty {
-    top: -200px;
+    top: -184px;
 }
 
 #distortion-of-novelty .flex-container {
@@ -368,7 +366,7 @@ section.no-background::before {
 }
 
 #hyperbolic-depreciation {
-    top: -200px;
+    top: -184px;
 }
 
 #hyperbolic-depreciation .flex-container {
@@ -381,7 +379,7 @@ section.no-background::before {
 }
 
 #errors-in-planning {
-    top: -200px;
+    top: -184px;
 }
 
 #errors-in-planning .flex-container {
@@ -433,7 +431,7 @@ footer button:hover {
 }
 
 footer {
-    top: -200px;
+    top: -184px;
 }
 
 footer .flex-container {
