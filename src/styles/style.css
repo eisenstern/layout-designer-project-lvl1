@@ -171,8 +171,9 @@ h3 {
     font-weight: bold;
     font-size: 16px;
     border: none;
-    margin-left: 15%;
+    margin-left: 570px;
     margin-top: 40px;
+    width: 148px;
 }
 
 .button:hover {
@@ -209,6 +210,8 @@ section.no-background::before {
 .video {
     position: relative;
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+    width: 919px; 
+    height: 569px;
 }
 
 .mb-30 {
