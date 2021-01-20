@@ -288,8 +288,8 @@ section.no-background::before {
     margin-top: 1em;
 }
 
-.mtop-60 {
-    margin-top: 60px;
+.mtop-76 {
+    margin-top: 76px;
 }
 
 .biases {
@@ -437,6 +437,8 @@ footer {
 footer .flex-container {
     align-items: center;
     padding: 55px;
+    height: 190px;
+    box-sizing: border-box;
 }
 
 footer .flex-container>div {
